@@ -32,7 +32,7 @@ const RagingSea = () => {
 	}, [])
 
 	return <mesh
-		geometry={new THREE.PlaneGeometry(10, 10, 512, 512)}
+		geometry={new THREE.PlaneGeometry(5, 5, 256, 256)}
 		// scale={[4, 0.2, 4]}
 		position={[15,0.5,0]}
 		rotation={[-Math.PI / 2, 0, 0]}
